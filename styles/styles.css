@@ -1,0 +1,66 @@
+#opening {
+  height: 100vh;
+  background-image: url(../assets/background.jpg);
+  background-size: cover;
+}
+
+#opening img {
+  opacity: 60%;
+  max-width: 60vw;
+}
+
+nav {
+  background: none;
+}
+
+nav img {
+  width: 25vw;
+}
+
+nav i {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+#photoCard img {
+  max-width: 50%;
+}
+
+#main {
+  height: 100vh;
+}
+
+#mainCard, #photoCard {
+  margin-top: 5%;
+}
+
+#mainCard, #photoCard, #contactCard {
+  border: none;
+}
+
+#mainCard p {
+  font-size: 20px;
+}
+
+#mainCard a {
+  text-decoration: none;
+  color: #000;
+}
+
+#contactCard a {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+  nav img {
+    width: 9vw;
+  }
+
+  nav i {
+    font-size: 2.5rem;
+  }
+
+  #main {
+    padding-right: 7vw;
+  }
+}
